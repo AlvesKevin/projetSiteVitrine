@@ -1,0 +1,78 @@
+html, body {
+ margin: 10px;
+ padding: 10px;
+ }
+body {
+ background-color: #272121;
+ font-family: Verdana, sans-serif;
+ font-size: 100%;
+ }
+
+.video {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background-size: cover;
+}
+
+h1 {
+ font-size: 200%;
+ color: #ffffff;
+ text-align: center;
+ }
+h2 {
+ font-size: 150%;
+ color: #fffbf9;
+ padding-left: 15px;
+ }
+p,ul,li,td {
+ color: #ffffff;
+ }
+a:link {
+ color: #ffffff;
+ text-decoration: underline;
+ }
+a:visited {
+ color: #ff0000;
+ }
+a:hover {
+ color: #0A1128;
+ text-decoration: none;
+}
+a:active, a:focus {
+ color: #fbff00;
+}
+p.paragraphe {
+ font-size: 200%;
+ background-color: rgb(75, 66, 68);
+ color: white;
+ text-align: center;
+}
+th.titre {background-color: rgb(255, 255, 255);}
+td.cellule1 {
+ background-color: rgb(0, 0, 0);
+ color: white;
+}
+td.cellule2 {
+ background-color: rgb(0, 0, 0);
+ color: white;
+}
+td.cellule3 {
+ background-color: rgb(0, 0, 0);
+ color: white;
+}
+td.cellule4 {
+ background-color: rgb(0, 0, 0);
+ color: white;
+}
+td.cellule5 {
+ background-color: rgb(0, 0, 0);
+ color: white;
+}
+td.cellule6 {
+ background-color: rgb(0, 0, 0);
+ color: white;
+}
+table{
+ margin:auto
+}

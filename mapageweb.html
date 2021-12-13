@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     	<title>Titre de la page</title>
     	<link href="monstyle.css" rel="stylesheet" media="all">
    </head>
@@ -11,26 +10,102 @@
 
    <div class="pagePrincipal">
      <img id="logoHautDePage" src="/img/logo%20site%20avion.png">
-     <p = id=></p>
+     <nav>
+       <ul>
+         <li><a href="#">Déposer une annonce</a></li>
+         <li><a href="#">Mes annonces</a></li>
+         <li><a href="#barre">Contact</a></li>
+         <li><a href="#barre">A propos</a></li>
+         <li><a href="#">Fonctionnement de nos avions</a></li>
+       </ul>
+     </nav>
+     <label for="site-search"></label>
+     <input type="search" id="site-search" name="q"
+            aria-label="Search through site content">
+     <button>Search</button>
 
+     <div class="conteneur2">
+       <div class="d2"></div>
+     </div>
+
+     <div class="vertical-menu">
+       <a href="#" class="active">Filtre</a>
+       <a href="#">Particulier </a>
+       <a href="#">Profesionnels</a>
+     </div>
+
+     <div class="vertical-menu">
+       <a href="#" class="active">Type de véhicule</a>
+       <a href="#">Avion de piste </a>
+       <a href="#">Avion de collection </a>
+       <a href="#">Jet</a>
+       <a href="#">Turboprop </a>
+       <a href="#">Helicoptère </a>
+       <a href="#">Paramoteur </a>
+       <a href="#">Parapante </a>
+       <a href="#">Planeur </a>
+       <a href="#">Motoplaneur</a>
+     </div>
+
+
+     <div class="boxAnnonce">
+       <div class="box-image">
+         <a id="nomAvion"> ATR-42 Avion cargo bimoteur </a>
+         <a id="datePublication"> Poster le : 14/02/2021</a>
+         <a id="lieuxVente">LIEUX DE VENTE: TOULOUSE</a>
+         <a id="presentation">Présentation: L'ATR 42 est un avion de transport de passager à turbopropulseurs. Le premier appareil fabriqué par ATR a effectué son premier vol le 16 août 1984 Le Premier ministre Laurent Fabius devant le premier appareil, peu après son premier vol. Il a été mis en service le 9 décembre 1985.</a>
+       </div>
+     </div>
+     <div class="boxAnnonce2">
+       <div class="box-image2">
+         <a id="nomAvion"> Robinson R22 </a>
+         <a id="datePublication"> Poster le : 10/09/2019</a>
+         <a id="lieuxVente">LIEUX DE VENTE: LILLE</a>
+         <a id="presentation">Le Robinson R22 est un hélicoptère civil léger, 2 places, conçu en 1973 et produit par la compagnie Robinson Helicopter depuis 1979.</a>
+       </div>
+
+     </div>
+     <div class="boxAnnonce3">
+       <div class="box-image3"></div>
+     </div>
+     <div class="boxAnnonce4">
+       <div class="box-image4"></div>
+     </div>
+     <div class="boxAnnonce5">
+       <div class="box-image5"></div>
+     </div>
+     <div class="boxAnnonce6">
+       <div class="box-image6">
+       </div>
+       <div class="boxAnnonce7">
+         <div class="box-image7"></div>
+       </div>
+       <div class="boxAnnonce8">
+         <div class="box-image8"></div>
+       </div>
    </div>
+
 
 		<video autoplay muted loop class="video"><source type="video/mp4" src="img/Plane%20-%2032975.mp4" media="(orientation: landscape)"></video>
 		<audio src="img/musique-libre-de-droits-dimatis-overcoming.mp3" autoplay loop></audio>
 
 
    <footer>
-     <div class="basPage"><img id="object-postion-1" src="/img/logo%20site%20avion.png">
+     <div id="barre" class="basPage"><img id="object-postion-1" src="/img/logo%20site%20avion.png">
        <p class="paragrapheBasPageContact"> Contact </p>
-       <p class=" paragrapheBasPageInformationComplémentaire"> Information complémentaire </p>
        <p class=" paragrapheBasPageAPropos"> A propos </p>
        <ul class="listeContact">
-        <li>Mail: Kevin.Alves.Etu@univ-lemans.fr</li>
-        <li>Reseaux:</li>
+         <li>Adresse: Institut d'Informatique Claude Chappe, Avenue René Laennec, Le Mans</li>
+         <li>Mail: Kevin.Alves.Etu@univ-lemans.fr</li>
+         <li>Numéro de téléphone: 06 35 95 53 93</li>
        </ul>
+       <ul class="listeAPropos">
+         <li>Site réalisé par:</li>
+         <li>Alves Kévin et Fadi Aouinti</li>
 
+       </ul>
      </div>
-
    </footer>
+     
    </body>
 </html>
